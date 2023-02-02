@@ -1,4 +1,8 @@
 import React from "react";
+import linkedin  from "../linkedin.png";
+import github  from "../github.png";
+import twitter  from "../twitter.png";
+
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -116,6 +120,26 @@ export default function Contact() {
             </button>
           </form>
         </div>
+        <div class="head__icons">
+        <ul class="head__icons__ul ul flex">
+            <li class="head__icons__li">
+              <a href="https://twitter.com/mark__anthonny">
+              <img src={twitter} width="40"
+                 alt="twitter icon" /></a>
+            </li>
+        
+              <li><a href="https://www.linkedin.com/in/mark-otuya-6a09a5232/">
+                <img src={linkedin} width="40"
+                  alt="linkedin icon" /></a> 
+            </li>
+            <li class="head__icons__li">
+              <li><a href="https://github.com/markotuya0">
+              <img src={github} width="40" margin="3em"
+                 alt="github icon" /></a>
+            </li>
+          </li>
+          </ul>
+          </div>
       </section>
     );
   }

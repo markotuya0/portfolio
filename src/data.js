@@ -3,7 +3,7 @@ export const projects = [
     title: "Bookstore App",
     subtitle: "React-Redux & Javascript",
     description:
-      "In this project, we used React and Redux to build a simple application. The project was a real-world project for a fictional company that required our help. The project got split into multiple milestones, and each had functional and technical requirements that all got implemented.",
+      "In this project, we used React and Redux to build a simple application. The project is a real-world project for a fictional company that required our help. The project got split into multiple milestones, and each had functional and technical requirements that all got implemented.",
     image: "./book.gif",
     link: "https://mark-react-bookstore.netlify.app/",
   },
