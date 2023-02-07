@@ -9,7 +9,7 @@ export default function About() {
             Hi, I'm Mark Otuya.
           </h1>
           <p className="mb-8 leading-relaxed">
-          i'm a Full-Stack developer & Web Designer! I can Build your Dream Web Page on Demand, Look Below for some of my work and experience! Feel free to contact me, Lets work.
+          Full-stack developer experienced in JavaScript, Ruby, React, and Rails. Skilled in pair programming, commununication skills, and deploying web applications.
           </p>
           <div className="flex justify-center">
             <a

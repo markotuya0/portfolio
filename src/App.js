@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function App() {
   return (
