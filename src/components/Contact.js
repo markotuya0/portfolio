@@ -3,8 +3,9 @@ import React from "react";
 
 
 export default function Contact() {
-  
+
     return (
+      <section id="Contact">
         <div className="flex flex-col items-center mt-10">
           <h2 className="text-3xl font-medium mb-5">Contact Me</h2>
           <form className="w-64 bg-gray-200 p-5 rounded-lg shadow-md">
@@ -28,6 +29,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        </section>
     );
   }
   
