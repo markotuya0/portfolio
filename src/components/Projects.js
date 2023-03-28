@@ -2,6 +2,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
+
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -17,32 +18,103 @@ export default function Projects() {
           is invested. Below showcases some of my latest projects.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
-              </div>
+        <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-col w-64 mx-4 my-4 bg-white rounded-lg shadow-lg">
+        <img
+          src="calc.png"
+          alt="Placeholder Image"
+          className="object-cover object-center w-full h-48 rounded-t-lg"
+        />
+        <div className="p-4 space-x-2">
+          <h2 className="font-bold text-lg mb-2">Maths Magician</h2>
+         
+          <a
+            href="https://github.com/markotuya0/math-magicians"
+            className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
+          >
+            Source
+          </a>
+          <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+          <a
+            href="https://marks-math-magician.netlify.app/">
+            Live Demo
             </a>
-          ))}
+          </button>
         </div>
       </div>
+      <div className="flex flex-col w-64 mx-4 my-4 bg-white rounded-lg shadow-lg">
+        <img
+          src="todo.png"
+          alt="Placeholder Image"
+          className="object-cover object-center w-full h-48 rounded-t-lg"
+        />
+        <div className="p-4 space-x-2">
+          <h2 className="font-bold text-lg mb-2">TO-DO List</h2>
+         
+          <a
+            href="https://github.com/markotuya0/to-do-list"
+            className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
+          >
+            Source
+          </a>
+          <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+          <a
+            href="https://mark-todolist.netlify.app/">
+            Live Demo
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="flex flex-col w-64 mx-4 my-4 bg-white rounded-lg shadow-lg">
+        <img
+          src="space.png"
+          alt="Placeholder Image"
+          className="object-cover object-center w-full h-48 rounded-t-lg"
+        />
+        <div className="p-4 space-x-2">
+          <h2 className="font-bold text-lg mb-2">Space Traveler's Hub</h2>
+         
+          <a
+            href="https://github.com/markotuya0/Space-Travelers-Hub2"
+            className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
+          >
+            Source
+          </a>
+          <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+          <a
+            href="https://delightful-starship-b08d3e.netlify.app/">
+            Live Demo
+            </a>
+          </button>
+          </div>
+        </div>
+      <div className="flex flex-col w-64 mx-4 my-4 bg-white rounded-lg shadow-lg">
+        <img
+          src="book.png"
+          alt="Placeholder Image"
+          className="object-cover object-center w-full h-48 rounded-t-lg"
+        />
+        <div className="p-4 space-x-2">
+          <h2 className="font-bold text-lg mb-2">Bookstore App</h2>
+         
+          <a
+            href="https://github.com/markotuya0/Bookstore-React-Redux"
+            className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
+          >
+            Source
+          </a>
+          <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+          <a
+            href="https://mark-react-bookstore.netlify.app/">
+            Live Demo
+            </a>
+          </button>
+        </div>
+        
+      </div>
+      
+      </div>
+    </div>  
     </section>
   );
 }

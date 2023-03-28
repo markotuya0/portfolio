@@ -26,8 +26,8 @@ export const projects = [
   {
     title: "Maths Magician",
     subtitle: "React-Redux & javascript",
-    description:
-      "This is a Calculator I built with React,employing hooks and best practices such as lift state, destructuring, and passing props to child components.",
+   href:"https://github.com/Abenezer-Tilahun/MealApp", class:"btn", target:"_blank", rel:"noreferrer",
+
     image: "./maths.gif",
     link: "https://github.com/markotuya0/math-magicians",
   },
