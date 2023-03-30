@@ -29,14 +29,14 @@ export default function Projects() {
           <h2 className="font-bold text-lg mb-2">Maths Magician</h2>
          
           <a
-            href="https://github.com/markotuya0/math-magicians"
+            href="https://github.com/markotuya0/math-magicians" target="_blank" rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
           >
             Source
           </a>
           <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
           <a
-            href="https://marks-math-magician.netlify.app/">
+            href="https://marks-math-magician.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live Demo
             </a>
           </button>
@@ -52,14 +52,14 @@ export default function Projects() {
           <h2 className="font-bold text-lg mb-2">TO-DO List</h2>
          
           <a
-            href="https://github.com/markotuya0/to-do-list"
+            href="https://github.com/markotuya0/to-do-list" target="_blank" rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
           >
             Source
           </a>
           <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
           <a
-            href="https://mark-todolist.netlify.app/">
+            href="https://mark-todolist.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live Demo
             </a>
           </button>
@@ -75,14 +75,14 @@ export default function Projects() {
           <h2 className="font-bold text-lg mb-2">Space Traveler's Hub</h2>
          
           <a
-            href="https://github.com/markotuya0/Space-Travelers-Hub2"
+            href="https://github.com/markotuya0/Space-Travelers-Hub2" target="_blank" rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
           >
             Source
           </a>
           <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
           <a
-            href="https://delightful-starship-b08d3e.netlify.app/">
+            href="https://delightful-starship-b08d3e.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live Demo
             </a>
           </button>
@@ -98,14 +98,14 @@ export default function Projects() {
           <h2 className="font-bold text-lg mb-2">Bookstore App</h2>
          
           <a
-            href="https://github.com/markotuya0/Bookstore-React-Redux"
+            href="https://github.com/markotuya0/Bookstore-React-Redux" target="_blank" rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 font-semibold mb-2"
           >
             Source
           </a>
           <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
           <a
-            href="https://mark-react-bookstore.netlify.app/">
+            href="https://mark-react-bookstore.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live Demo
             </a>
           </button>
