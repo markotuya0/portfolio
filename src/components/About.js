@@ -9,7 +9,7 @@ return (
 Hi, I'm Mark Otuya!
 </h1>
 <p className="mb-8 leading-relaxed">
-I'm a full stack developer with a passion for building innovative and user-friendly web applications. With over 5 years of experience in the industry, I've honed my skills in both front-end and back-end development, as well as in agile methodologies and project management. My strong understanding of software architecture and best practices allows me to deliver high-quality solutions that meet business needs and exceed user expectations. When I'm not coding, you can find me exploring out-door activities or Playing football.
+I'm a full stack developer with a passion for building innovative and user-friendly web applications. With over 5 years of experience in the industry, I've honed my skills in both front-end and back-end development, as well as in agile methodologies and project management. My strong understanding of software architecture and best practices allows me to deliver high-quality solutions that meet business needs and exceed user expectations. When I'm not coding, you can find me exploring out-door activities, listening to music  or Playing football.
 </p>
 <div className="flex justify-center">
 <a
