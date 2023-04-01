@@ -60,7 +60,6 @@ export default function Contact() {
             <input
               type="email"
               name="email"
-              placeholder="Email id"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="block w-full rounded-lg border-gray-300 focus:border-green-500 focus:ring-green-500"
