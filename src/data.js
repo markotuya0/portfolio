@@ -16,12 +16,12 @@ export const projects = [
     link: "https://github.com/markotuya0/Space-Travelers-Hub2",
   },
   {
-    title: "TO-DO List",
+    title: "Metrics Dog web app",
     subtitle: "React-redux & javascript",
     description:
-      "This is the  Todo list project using html + css + modular javascript, ES6 syntax, and Webpack.I used hooks to handle state, Invalid operation errors are successfully handled through useEffect. ",
-    image: "./todo.gif",
-    link: "https://github.com/markotuya0/to-do-list",
+      "The Metrics dog web app is a web platform that shows a variety of dog breeds and their skills. API used for fetching data: TheDogApi The app is fully mobile responsive and tested using Jest and the React Testing Library. This is a capstone project for the React and Redux Module. ",
+    image: "./metric.png",
+    link: "https://marks-metrics-app.netlify.app/",
   },
   {
     title: "Maths Magician",
@@ -33,6 +33,18 @@ export const projects = [
 
     image: "./maths.gif",
     link: "https://github.com/markotuya0/math-magicians",
+  },
+
+  {
+    title: "Api Based Movie App",
+    subtitle: "React-Redux & javascript",
+    href: "https://github.com/markotuya0/JavaScript-group-capstone?tab=readme-ov-file",
+    class: "btn",
+    target: "_blank",
+    rel: "noreferrer",
+
+    image: ".movie.png",
+    link: "https://github.com/markotuya0/JavaScript-group-capstone?tab=readme-ov-file",
   },
 ];
 
