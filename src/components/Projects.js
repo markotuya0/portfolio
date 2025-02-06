@@ -39,10 +39,10 @@ export default function Projects() {
       demoUrl: "https://marks-math-magician.netlify.app/",
     },
     {
-      title: "TO-DO List",
-      image: "todo.png",
-      sourceUrl: "https://github.com/markotuya0/to-do-list",
-      demoUrl: "https://mark-todolist.netlify.app/",
+      title: "Metric Dog Web App",
+      image: "metric.png",
+      sourceUrl: "https://github.com/markotuya0/metrics-web-app",
+      demoUrl: "https://marks-metrics-app.netlify.app/",
     },
     {
       title: "Space Traveler's Hub",
@@ -55,6 +55,12 @@ export default function Projects() {
       image: "lib.png",
       sourceUrl: "https://github.com/markotuya0/Bookstore-React-Redux",
       demoUrl: "https://mark-react-bookstore.netlify.app/",
+    },
+    {
+      title: "Api Based Movie App",
+      image: "movie.png",
+      sourceUrl: "https://github.com/markotuya0/JavaScript-group-capstone?tab=readme-ov-file",
+      demoUrl: "https://tuyishimireeric.github.io/JavaScript-group-capstone/dist/",
     },
   ];
 
