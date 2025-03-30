@@ -24,15 +24,15 @@ export const projects = [
     link: "https://marks-metrics-app.netlify.app/",
   },
   {
-    title: "Maths Magician",
-    subtitle: "React-Redux & javascript",
-    href: "https://github.com/Abenezer-Tilahun/MealApp",
+    title: "Proxy Web Store",
+    subtitle: "Premium proxy solutions",
+    href: "https://proxysock.com/",
     class: "btn",
     target: "_blank",
     rel: "noreferrer",
 
-    image: "./maths.gif",
-    link: "https://github.com/markotuya0/math-magicians",
+    image: "./proxy.png",
+    link: "https://proxysock.com/",
   },
 
   {

@@ -33,10 +33,10 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Maths Magician",
-      image: "calc.png",
-      sourceUrl: "https://github.com/markotuya0/math-magicians",
-      demoUrl: "https://marks-math-magician.netlify.app/",
+      title: "Proxy Web App",
+      image: "proxy.png",
+      sourceUrl: "https://proxysock.com/",
+      demoUrl: "https://proxysock.com//",
     },
     {
       title: "Metric Dog Web App",
